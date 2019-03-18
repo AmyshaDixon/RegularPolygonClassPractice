@@ -52,6 +52,7 @@ int main() {
 		shape3.accessY(),
 		shape3.accessSide(),
 		shape3.getPerimeter());
+
 	// Test shape4
 	shape4.mutateN(8);
 	shape4.mutateX(2.1);
