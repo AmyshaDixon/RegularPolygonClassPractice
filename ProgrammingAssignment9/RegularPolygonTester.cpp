@@ -31,27 +31,27 @@ int main() {
 
 	// Test shape1
 	displayText("Shape 1 (default)",
-						 shape1.accessN(),
-						 shape1.accessX(),
-						 shape1.accessY(),
-						 shape1.accessSide(),
-						 shape1.getPerimeter());
+		shape1.accessN(),
+		shape1.accessX(),
+		shape1.accessY(),
+		shape1.accessSide(),
+		shape1.getPerimeter());
 
 	// Test shape2
 	displayText("Shape 2 (5, 2, 3, 2)",
-						 shape2.accessN(),
-						 shape2.accessX(),
-						 shape2.accessY(),
-						 shape2.accessSide(),
-						 shape2.getPerimeter());
+		shape2.accessN(),
+		shape2.accessX(),
+		shape2.accessY(),
+		shape2.accessSide(),
+		shape2.getPerimeter());
 
 	// Test shape3
 	displayText("Shape 3 (4, 0.5, 0.5, 1.1)",
-						 shape3.accessN(),
-						 shape3.accessX(),
-						 shape3.accessY(),
-						 shape3.accessSide(),
-						 shape3.getPerimeter());
+		shape3.accessN(),
+		shape3.accessX(),
+		shape3.accessY(),
+		shape3.accessSide(),
+		shape3.getPerimeter());
 	// Test shape4
 	shape4.mutateN(8);
 	shape4.mutateX(2.1);
@@ -91,11 +91,11 @@ int main() {
 }
 
 void displayText (string shapeName, 
-							int shapesN, 
-							double shapesX, 
-							double shapesY, 
-							double shapesSide,
-							double shapesPerimeter) {
+	int shapesN, 
+	double shapesX, 
+	double shapesY, 
+	double shapesSide,
+	double shapesPerimeter) {
 	cout << shapeName + ":" << endl;
 	cout << "    n = " << shapesN << endl;
 	cout << "    x = " << shapesX << endl;

@@ -14,9 +14,10 @@ class RegularPolygon {
 	public:
 		// Constructor
 		RegularPolygon(int n = 3, 
-								    double x = 0, 
-									double y = 0, 
-									double side = 1);
+			double x = 0, 
+			double y = 0, 
+			double side = 1);
+
 		// Methods
 		double getPerimeter();
 
