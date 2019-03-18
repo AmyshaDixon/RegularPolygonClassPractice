@@ -1,7 +1,10 @@
 #include "RegularPolygon.h"
 
 // Constructor
-RegularPolygon::RegularPolygon(int n, double x, double y, double side) {
+RegularPolygon::RegularPolygon(int n, 
+	double x, 
+	double y, 
+	double side) {
 	mutateN(n);
 	mutateX(x);
 	mutateY(y);
